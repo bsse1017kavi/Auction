@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="284.0" prefWidth="404.0">
+         <children>
+            <Button layoutX="154.0" layoutY="49.0" mnemonicParsing="false" onAction="#subscribe" prefHeight="45.0" prefWidth="99.0" text="Subscribe" />
+            <Button fx:id="button" layoutX="154.0" layoutY="119.0" mnemonicParsing="false" onAction="#raiseBid" prefHeight="45.0" prefWidth="99.0" text="Raise Bid" />
+            <Text fx:id="t" layoutX="222.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="61.13671875" />
+            <Text layoutX="154.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Bid:" wrappingWidth="61.13671875" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

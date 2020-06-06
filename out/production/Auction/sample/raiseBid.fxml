@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="210.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RaiseBid">
+   <children>
+      <TextField fx:id="tf1" layoutX="195.0" layoutY="72.0" />
+      <Text layoutX="123.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Bid:" wrappingWidth="56.13671875" />
+      <Button fx:id="button" layoutX="160.0" layoutY="150.0" mnemonicParsing="false" onAction="#confirm" prefHeight="31.0" prefWidth="71.0" text="Confirm" />
+   </children>
+</AnchorPane>
